@@ -3,9 +3,10 @@
 This project implements a real-time computer vision pipeline to detect, track, and calculate the speed of moving objects in video streams.
 
 ### Demo
-<video src="videos/sample_output.mp4" width="800" controls muted loop>
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <img src="videos/sample_output-3.gif" width="600px">
+</p>
+
 
 
 ## Core Technologies
