@@ -4,8 +4,8 @@ from ultralytics import YOLO
 from sort.sort import Sort
 
 # CONFIG
-INPUT_VIDEO = "/mnt/c/Users/uidv601s/WSL_Codes/playground/object_tracking/videos/Road_traffic_video_for_object_recognition_720p.mp4"
-OUTPUT_VIDEO = "/mnt/c/Users/uidv601s/WSL_Codes/playground/object_tracking/videos/Road_traffic_video_for_object_recognition_720p_output_EMA25.mp4"
+INPUT_VIDEO = "input.mp4"
+OUTPUT_VIDEO = "output.mp4"
 
 MODEL_PATH = "yolov8n.pt"
 CONF_THRESH = 0.4
