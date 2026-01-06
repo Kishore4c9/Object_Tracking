@@ -2,7 +2,13 @@
 
 This project implements a real-time computer vision pipeline to detect, track, and calculate the speed of moving objects in video streams.
 
-## 🧠 Core Technologies
+### Demo
+<video src="videos/sample_output.mp4" width="800" controls muted loop>
+  Your browser does not support the video tag.
+</video>
+
+
+## Core Technologies
 
 ### Object Detection (YOLO)
 The system utilizes **YOLO (You Only Look Once)**. This model treats object detection as a single regression problem, straight from image pixels to bounding box coordinates and class probabilities. It is optimized for high frame rates while maintaining high accuracy.
